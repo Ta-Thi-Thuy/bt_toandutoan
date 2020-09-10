@@ -1,0 +1,10 @@
+ly = prompt('Nhap diem vat ly');
+hoa = prompt('Nhap diem hoa hoc');
+sinh = prompt('Nhap diem sinh hoc');
+let physical = parseInt(ly)
+let chemistry = parseInt(hoa)
+let biological = parseInt(sinh)
+let diemtrungbinh = (physical + chemistry + biological)/3
+let tong = physical + chemistry + biological
+document.write('diemtrungbinh ='+ diemtrungbinh);
+document.write('tong =' + tong);
